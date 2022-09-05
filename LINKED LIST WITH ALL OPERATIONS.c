@@ -109,16 +109,16 @@ void addend()
 {
     newnode=(struct node *)malloc(sizeof(struct node));
     printf("Enter Your data\n");
-    scanf("%d",&newnnode->data);
-    temp=start;
-    if(start-=NULL)
+    scanf("%d",&newnode->data);
+    if(start==NULL)
     {
         start=newnode;
         newnode->next=NULL;
     }
     else
     {
-        while(temp!=NULL)
+        temp=start;
+        while(temp->next!=NULL)
             temp=temp->next;
         temp->next=newnode;
         newnode->next=NULL;
@@ -126,12 +126,12 @@ void addend()
 }
 void addlocation()
 {
-    int loc;
+    int loc,i;
     printf("Enter Location\n");
     scanf("%d",&loc);
-    newnode=(struct node *)malloc(size of(struct node));
+    newnode=(struct node *)malloc(sizeof(struct node));
     printf("Enter your Data\n");
-    scanf("%%d",&newnode->data);
+    scanf("%d",&newnode->data);
     if(start==NULL)
     {
         start=newnode;
@@ -139,7 +139,8 @@ void addlocation()
     }
     else
     {
-        for(int i=1;i<loc;i++)
+        current=start;
+        for(i=1;i<loc;i++)
         {
             previous=current;
             current=current->next;

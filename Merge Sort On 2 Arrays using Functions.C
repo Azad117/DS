@@ -1,3 +1,4 @@
+//Merge Sort on 2 Arrats Using Functions
 #include<stdio.h>
 int a[10],b[10],c[10];
 void sort(int m,int n)

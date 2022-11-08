@@ -1,3 +1,4 @@
+//Circular Queue Using Arrays
 #include<stdio.h>
 #define Max 5
 int front=-1,rear=-1,cq[Max],count=0;

@@ -1,6 +1,7 @@
-// Online C compiler to run C program online
+//Quick Sort
 #include <stdio.h>
-int main(){
+int main()
+{
    int i, count, number[25];
    printf("How many elements are u going to enter?: ");
    scanf("%d",&count);

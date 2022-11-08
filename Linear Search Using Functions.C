@@ -1,3 +1,4 @@
+//Linera Search Using Functions
 #include<stdio.h>
 int found=0; 
 void sort(int a[],int ele,int n)

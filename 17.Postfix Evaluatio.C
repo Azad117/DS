@@ -1,3 +1,4 @@
+//Evaluation of Postfix Expression Using Stacks
 #include<stdio.h>
 #define MAX 20
 typedef struct stac

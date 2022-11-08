@@ -1,3 +1,4 @@
+//Stacks Using Arrays
 #include<stdio.h>
 #define Max 5
 int top=-1;

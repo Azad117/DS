@@ -35,7 +35,7 @@ void display()
     else
     {
         printf("te elements are\n");
-        for(i=0;i<count;i++)
+        for(i=front;i<rear;i++)
         {   
             printf("%d\t",cq[i]);
         }
